@@ -199,11 +199,11 @@ elif decision1 == "2":
                     if decision2 == "si":
                         print("Decides unirte a la orden de la mano de plata, y comienzas tu entrenamiento como un caballero. A lo largo de tu entrenamiento, aprendes habilidades de combate, magia y estrategia, convirtiéndote en un guerrero formidable.")
                         print("Después de completar tu entrenamiento, te embarcas en misiones para proteger a los inocentes y luchar contra las fuerzas del mal, ganando fama y respeto en el reino.")
-                        print("Gracias por jugar.")
+                        print("Gracias por jugar.'Profe ya no aguanbto massss'")
                     elif decision2 == "no":
                         print("Decides no unirte a la orden de la mano de plata, y decides seguir tu propio camino como aventurero. Continúas explorando el mundo, enfrentando desafíos y viviendo aventuras por tu cuenta, sin la guía ni el apoyo de la orden.")
                         print("Aunque enfrentas dificultades y peligros, también encuentras momentos de libertad y emoción en tu viaje como aventurero solitario.")
-                        print("Gracias por jugar.")
+                        print("Gracias por jugar.'Es mejor la livertad' ")
                     else:
                         print("Es una buena propuesta piensalo bien.")
                 else:
