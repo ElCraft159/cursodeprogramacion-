@@ -1,6 +1,6 @@
 
 print("Bienvenido al juego de Norwin")
-print("Espero Que el profesor me ponga 20 :)")
+print("Espero Que el profesor me ponga 20 :) ")
 print("Empezemos con el juego")
 genero = input("¿Cual es tu genero? (MASCULINO/FEMENINO):").lower().strip()
 if genero == "masculino":
@@ -154,5 +154,32 @@ if decision1 == "1":
         else:
             print("Opción no válida.")
 elif decision1 == "2":
-    print("Decides explorar el bosque sin el mapa, pero te pierdes y no encuentras el camino de regreso. Después de caminar por un tiempo, encuentras una cabaña abandonada.")
-    print("¿Qué decides hacer?")
+    print("Caminando por el bosques te encuentras a un aventurero mal herido")
+    print("¿Que quires hacer?")
+    print("Ayudar al aventurero")
+    print("Ignorar al aventurero")
+    print("Rematar al aventurero")
+    decision2 = input("Ingresa tu decision").lower().strip()
+    if decision2 == "Ayudar al aventurero":
+        print("El aventurero saca una navaja y te apunta con ella")
+        print("Le explicas que vas ayudarlo y baja la navaja")
+        print("lo ayudas y descubres que es un caballero real bajo la orden de la mano de plata")
+        print("te agradece y te pide que si lo puedes ayudar a llegar a la cuidad")
+        print("Ayudarlo")
+        print("Dejarlo a su suerte")
+        decision2 = input("Que haras?").lower().strip()
+        if decision2 == "Ayudarlo":
+            print("Lo ayudas a levata")
+            print("sigues las ruta que te dice el caballero")
+            print("a la lejania ves lo que parece ser una pequeña aldea, aun esta muy lejos pero ya ves una salida")
+            print("la noche ya empiesa a caer")
+            print("puedes quedarte y hacer una fogata para pasar la noche o seguir caminando")
+            print("Quedarte y descansar")
+            print("seguir caminando")
+            decision2 = input("Que decides?").lower().strip()
+            if decision2 == "Quedarte y descansar":
+                print("acuestas al caballero sobre un monto de hojas")
+                print("Preparas unas ramas para hacer una hoguera")
+                print("al intentar hacer el fuego, el caballero te llama te dice que el te ayudara")
+                print("Quedas impresionado al ver que usa un hechiso de fuego para enceder la hoguera")
+                print("Te recuestas a descasar")
