@@ -153,3 +153,6 @@ if decision1 == "1":
             print("el peor de los finales")
         else:
             print("Opción no válida.")
+elif decision1 == "2":
+    print("Decides explorar el bosque sin el mapa, pero te pierdes y no encuentras el camino de regreso. Después de caminar por un tiempo, encuentras una cabaña abandonada.")
+    print("¿Qué decides hacer?")
