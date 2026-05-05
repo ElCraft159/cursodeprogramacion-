@@ -167,8 +167,8 @@ elif decision1 == "2":
         print("te agradece y te pide que si lo puedes ayudar a llegar a la cuidad")
         print("Ayudarlo")
         print("Dejarlo a su suerte")
-        decision2 = input("Que haras?").lower().strip()
-        if decision2 == "Ayudarlo":
+        decision3 = input("Que haras?").lower().strip()
+        if decision3 == "Ayudarlo":
             print("Lo ayudas a levata")
             print("sigues las ruta que te dice el caballero")
             print("a la lejania ves lo que parece ser una pequeña aldea, aun esta muy lejos pero ya ves una salida")
@@ -176,8 +176,8 @@ elif decision1 == "2":
             print("puedes quedarte y hacer una fogata para pasar la noche o seguir caminando")
             print("Quedarte y descansar")
             print("seguir caminando")
-            decision2 = input("Que decides?").lower().strip()
-            if decision2 == "Quedarte y descansar":
+            decision4 = input("Que decides?").lower().strip()
+            if decision4 == "Quedarte y descansar":
                 print("acuestas al caballero sobre un monto de hojas")
                 print("Preparas unas ramas para hacer una hoguera")
                 print("al intentar hacer el fuego, el caballero te llama te dice que el te ayudara")
@@ -186,11 +186,11 @@ elif decision1 == "2":
                 print("Te despierta un sonido muy fuerte algo a como un rugido te despierta miras aterrado ¡Un gran leo dientes de sable!")
                 print("Te levanstas coges tu espada y te pones en guardia")
                 print("Dudas en defenderte o atacar al leon dientes de sable")
-                decision2 = input("¿Defenderte o atacar?").lower().strip()
-                if decision2 == "Defenderte":
+                decisio5 = input("¿Defenderte o atacar?").lower().strip()
+                if decisio5 == "Defenderte":
                     print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques con tu espada y escudo. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
                     print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
-                elif decision2 == "Atacar":
+                elif decisio5 == "Atacar":
                     print("Decides atacar, el leon dientes de sable ataca con sus garras y colmillos afilados, no fue una buena idea atacar, el leon te destroza con sus garras y colmillos.")
                     print("GAME OVER.")
                     print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
