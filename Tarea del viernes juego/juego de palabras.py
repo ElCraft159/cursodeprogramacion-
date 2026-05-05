@@ -183,3 +183,28 @@ elif decision1 == "2":
                 print("al intentar hacer el fuego, el caballero te llama te dice que el te ayudara")
                 print("Quedas impresionado al ver que usa un hechiso de fuego para enceder la hoguera")
                 print("Te recuestas a descasar")
+                print("Te despierta un sonido muy fuerte algo a como un rugido te despierta miras aterrado ¡Un gran leo dientes de sable!")
+                print("Te levanstas coges tu espada y te pones en guardia")
+                print("Dudas en defenderte o atacar al leon dientes de sable")
+                decision2 = input("¿Defenderte o atacar?").lower().strip()
+                if decision2 == "Defenderte":
+                    print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques con tu espada y escudo. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
+                    print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
+                elif decision2 == "Atacar":
+                    print("Decides atacar, el leon dientes de sable ataca con sus garras y colmillos afilados, no fue una buena idea atacar, el leon te destroza con sus garras y colmillos.")
+                    print("GAME OVER.")
+                    print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
+                    print("al llegar a la aldea, el caballero te presenta a sus superiores en la orden de la mano de plata, quienes te ofrecen unirte a su causa y entrenarte como un caballero.")
+                    decision2 = input("¿Quieres unirte a la orden de la mano de plata? (SI/NO)").lower().strip()
+                    if decision2 == "si":
+                        print("Decides unirte a la orden de la mano de plata, y comienzas tu entrenamiento como un caballero. A lo largo de tu entrenamiento, aprendes habilidades de combate, magia y estrategia, convirtiéndote en un guerrero formidable.")
+                        print("Después de completar tu entrenamiento, te embarcas en misiones para proteger a los inocentes y luchar contra las fuerzas del mal, ganando fama y respeto en el reino.")
+                        print("Gracias por jugar.")
+                    elif decision2 == "no":
+                        print("Decides no unirte a la orden de la mano de plata, y decides seguir tu propio camino como aventurero. Continúas explorando el mundo, enfrentando desafíos y viviendo aventuras por tu cuenta, sin la guía ni el apoyo de la orden.")
+                        print("Aunque enfrentas dificultades y peligros, también encuentras momentos de libertad y emoción en tu viaje como aventurero solitario.")
+                        print("Gracias por jugar.")
+                    else:
+                        print("Es una buena propuesta piensalo bien.")
+                else:
+                    print("Solo puedes defenderte o atacar.")
