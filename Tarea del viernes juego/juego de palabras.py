@@ -306,10 +306,39 @@ elif decision1 == "2":
         else: 
             print("Tomas malas decisiones, para eestar aqui.")    
     elif decision2 == "REMATAR AL AVENTURERO":
-        print("Decides rematar al aventurero, y con un golpe certero, acabas con su sufrimiento de una vez por todas. Sin Sin embargo, te sientes culpable por haber tomado la vida del aventurero, y te preguntas si podrías haber hecho algo para salvarlo.")
-        print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste rematar.")
-        print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
-        print("GAME OVER 'Moriste por el poder del guion' ")             
+        print("Decides rematar al aventurero, y con un golpe certero, acabas con su sufrimiento de una vez por todas.")
+        print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en elbosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste rematar.")
+        print("Al ver tu espada llena de sangre, los cazadores se ponen en guardia.")
+        print("¿Qué hiciste? Preguntan.")
+        print("Que respondes?")
+        print("Le remate para acabar con su sufrimiento, respondes.")
+        print("No es lo que piensan, respondes.")
+        print("atacas sin decir nada")
+        decision3 = input("Ingresa tu decisión: ").strip().upper()
+        if decision3 == "LE REMATE PARA ACABAR CON SU SUFRIMIENTO":
+            print("Mataste a un cabellero de la orden de la mano de plata? ¡JA!, tu cabeza vale muchas monedas de oro,rodean para atacarte")
+            print("No puedes detener todo los ataque a la vez.")
+            print("asi que decides rendirte y te entrgas a los cazadores, ellos te llevan a la aldea y te entregan a las autoridades para que enfrentes las consecuencias de tus acciones.")
+            print("En la aldea, eres juzgado por tus acciones y condenado a la horca.")
+            print("GAME OVER 'Morir ahorcado debe ser sofocante' ")
+        elif decision3 == "NO ES LO QUE PIENSAN":
+            print("Los cazadores se sienten confundidos por tu respuesta, y te miran con desconfianza. Sin embargo, deciden no confrontarte directamente, y te advierten que el bosque es un lugar peligroso, y que debes tener cuidado con las decisiones que tomas en el futuro.")
+            print("Aun asi te prreguntas si vas a compañarlos a la aldea.")
+            print("¿Qué decides? (ACOMPAÑARLOS A LA ALDEA/SEGUIR TU CAMINO)")
+            decision4 = input("Ingresa tu decisión: ").strip().upper()
+            if decision4 == "ACOMPAÑARLOS A LA ALDEA":
+                print("Decides acompañarlos a la aldea de camino te pregunta por la sagre") #que aquiiiiiiiiiiiiiiiiiiiiiii
+            elif decision4 == "SEGUIR TU CAMINO":
+                print("Decides seguir tu camino por el bosque, pero la soledad se vuelve más pesada. La noche cae y ves como los pocos rayos de luz se desvanecen, se empiezan a escuchar ruidos extraños a tu alrededor, y te das cuenta de que no estás solo en el bosque.")    
+            print("Bien hecho.'Compasion' ")
+        elif decision3 == "ATACAS SIN DECIR NADA":
+            print("Decides atacar a los cazadores sin decir nada, y te lanzas sobre ellos con tu espada. Sin embargo, los cazadores están preparados para defenderse, y te superan en número y habilidad.")
+            print("Después de un intenso combate, los cazadores logran derrotarte, dejándote gravemente herido y vulnerable en el bosque.")
+            print("Mientras estás tendido en el suelo, escuchas aullidos a lo lejos, y te das cuenta de que una manada de lobos se acerca hacia ti.")
+            print("Sin fuerzas para defenderte, eres devorado por los lobos, terminando tu aventura de manera trágica.")
+            print("GAME OVER 'Moriste por el poder del guion' ")
+        else:
+            print("Talves atacar sea la mejor opción.")                         
     else:
         print("Tienes buenas opciones")
 else:
