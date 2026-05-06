@@ -257,41 +257,56 @@ elif decision1 == "2":
                 print("Por idiota, respondes.")
                 print("Por miedo, respondes.")
                 print("Para ver cual seria la siguiente interacción, respondes.")
-                decisio5 = input("Ingresa tu respuesta: ").strip().upper()
-                if decisio5 == "POR IDIOTA":
+                decision5 = input("Ingresa tu respuesta: ").strip().upper()
+                if decision5 == "POR IDIOTA":
                     print("Si que lo eres responde la familia.")
                     print("Te golpean hasta que pierdes el conocimiento.")
                     print("Los detiene un sacerdote, El te cura con su magia.")
                     print("Para que te sigan golpeando.")
                     print("Fin del juego 'al parecer no fue una buena idea' ")
-                elif decisio5 == "POR MIEDO":
+                elif decision5 == "POR MIEDO":
                     print("Miedoo a queee.")
-                    print("Te deja a tu suerte de nuevo en elbosque ahora sin espada ni mapa.")
-                    print("Sin nada para defenderte ni para guiarte, es solo cuestión de tiempo antes de que te encuentres con un peligro mortal en elbosque, y termines siendo devorado por una bestia salvaje o muriendo de hambre y sed.")
-                    print("Igual al caballero que decidio no ayudarlo.")
-                    print("GAME OVER 'Moriste por el poder del guion' ")
-                elif decisio5 == "PARA VER CUAL SERIA LA SIGUIENTE INTERACCIÓN":
-                    print("La familia del caballero se siente devastada por la noticia, te maldicen y te espulsa de la aldea.")
-                    print("Te deja a tu suerte de nuevo en elbosque ahora sin espada ni mapa.")
-                    print("Sin nada para defenderte ni para guiarte, es solo cuestión de tiempo antes de que te encuentres con un peligro mortal en elbosque, y termines siendo devorado por una bestia salvaje o muriendo de hambre y sed.")
-                    print("Igual al caballero que decidio no ayudarlo.")
-                    print("GAME OVER 'Moriste por el poder del guion' ")
+                    print("A que pensara que habia sido yo.")
+                    print("llegar a la aldea con un caballero muerto, es algo que no se le perdona a nadie.")
+                    print("me ahorcan sin siquiera preguntar.")
+                    print("la familia te da la razon por tu miedo, y te ahorcan sin siquiera preguntar.")
+                elif decision5 == "PARA VER CUAL SERIA LA SIGUIENTE INTERACCIÓN":
+                    print("profe quiero decirle que esto a estado tedioso a eso sumele los bajones de luz el trabajo no haz sido facil pero me gusta <3 ")
+                    print("llamele a esto el nivel secreto o algo asi.")
+                    print("son como las 11:30 de la noche y ya no se que mas poner y todavia falta")
+                    print("fin del juego 'aqui termina el nivel secreto' ")
                 else:
-                    print("La tercera rompe la cuarta pare? 'Escoje bien'.")            
+                    print("La tercera pregunta rompe la cuarta pare? 'Escoje bien'.")            
             elif decision4 == "UNIRTE A LA ORDEN":
                 print("Decides unirte a la orden de la mano de plata, y te unes a ellos en su misión para proteger a los inocentes y luchar contra las fuerzas del mal. A lo largo de tu tiempo con la orden, aprendes habilidades de combate, magia y estrategia, convirtiéndote en un guerrero formidable.")
                 print("Aunque te sientes culpable por tu decisión de ignorar al caballero, también encuentras redención al unirte a la orden y dedicar tu vida a proteger a los demás.")
-                print("Gracias por jugar.'Redencion' ")
+                print("Bien hecho.'Redencion' ")
             else:
                 print("Estas buscando redencion pero no sabes como encontrarla, piensalo bien.")        
         elif decision3 == "SEGUIR TU CAMINO POR EL BOSQUE":
-            print("Decides seguir tu camino por el bosque, y continúas tu aventura sin el caballero. Sin embargo, te sientes cada vez más culpable por haber ignorado al aventurero, y te preguntas qué le habrá pasado.")
-            print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste ignorar.")
-            print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
+            print("Decides seguir tu camino por el bosque, pero la soleda se vuelva mas pesada.")
+            print("la noche cae y ves como los pocos rayos de luz se desvanecen, se empieza a escuchar ruidos extraños a tu alrededor, y te das cuenta de que no estás solo en el bosque.")
+            print("se escuchas aullidos y de la nada te rodean una manada de lobos.")
+            print("Te atacan y te definedes con tu espada, pero son demasiados te supera en numero.")
+            print("Te estan devorando vivo, ves tu vida pasar frente a tus ojos.")
+            print("una luz brillante aparece en el cielo, los lobos se detiene y huyen, una figura misteriosa aparece y te pregunta que haces en su bosque, le cuentas lo que paso y te dice que no deberias haber estado alli, que es peligroso para los humanos.")
+            print("estas agonizando y la figura misteriosa te dice que te ayudara a salir del bosque, pero a cambio, debes prometerle que nunca volverás a entrar en su territorio.")
+            print("que decides? (ACEPTAR/RECHAZAR)")
+            decision4 = input("Ingresa tu decisión: ").strip().upper()
+            if decision4 == "ACEPTAR":
+                print("Decides aceptar la oferta de la figura misteriosa, y te ayuda a salir del bosque. Sin embargo, te advierte que si alguna vez vuelves a entrar en su territorio, enfrentarás consecuencias graves.")
+                print("Agradecido por su ayuda, prometes no volver a entrar en el bosque y continúas tu vida, siempre recordando la lección que aprendiste sobre los peligros de adentrarse en territorios desconocidos.")
+                print("Bien hecho.'Aprendiste la leccion?' ")
+            elif decision4 == "RECHAZAR":
+                print("Decides rechazar la oferta de la figura misteriosa, y te niegas a aceptar su ayuda. la figura misteriosa se enoja por tu rechazo y te dice que has cometido un grave error al rechazar su ayuda, y que ahora enfrentarás las consecuencias de tu decisión.")
+                print("La figura misteriosa alza su mano y tu espiritu es arrancado de tu cuerpo, dejándote atrapado en elbosque para siempre como un espíritu errante, condenado a vagar por el bosque sin descanso, sin poder encontrar la paz")
+                print("GAME OVER ")
+            else:
+                print("ACEPTAR o RECHAZAR 'INTENTA DE NUEVO'.")        
         else: 
             print("Tomas malas decisiones, para eestar aqui.")    
     elif decision2 == "REMATAR AL AVENTURERO":
-        print("Decides rematar al aventurero, y con un golpe certero, acabas con su sufrimiento de una vez por todas. Sin embargo, te sientes culpable por haber tomado la vida del aventurero, y te preguntas si podrías haber hecho algo para salvarlo.")
+        print("Decides rematar al aventurero, y con un golpe certero, acabas con su sufrimiento de una vez por todas. Sin Sin embargo, te sientes culpable por haber tomado la vida del aventurero, y te preguntas si podrías haber hecho algo para salvarlo.")
         print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste rematar.")
         print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
         print("GAME OVER 'Moriste por el poder del guion' ")             
