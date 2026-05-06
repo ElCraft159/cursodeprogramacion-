@@ -12,8 +12,8 @@ else:
 print("Te despiertas en un bosque oscuro, sin recordar cómo llegaste allí. A tu lado, encuentras una espada antigua y un mapa desgastado." \
 "¿Qué decides hacer?")
 print("TOMAR LA ESPADA Y SEGUIR EL MAPA.")
-print("EXPLORAR EL BOSQUE SIN EL MAPA.")
 print("DEJAR LA ESPADA Y SEGUIR EL MAPA.")
+print("EXPLORAR EL BOSQUE SIN EL MAPA.")
 decision1 = input("Ingresa tu decisión: ").strip().upper()
 if decision1 == "TOMAR LA ESPADA Y SEGUIR EL MAPA":
     print("Agarras la espada y sigues el mapa, adentrándote en el bosque. Después de caminar por un rato, encuentras una cabaña abandonada.")
@@ -154,7 +154,7 @@ if decision1 == "TOMAR LA ESPADA Y SEGUIR EL MAPA":
             print("el peor de los finales")
         else:
             print("Opción no válida.")
-elif decision1 == "2":
+elif decision1 == "DEJAR LA ESPADA Y SEGUIR EL MAPA":
     print("Caminando por el bosques te encuentras a un aventurero mal herido")
     print("¿Que quires hacer?")
     print("Ayudar al aventurero")
@@ -168,7 +168,7 @@ elif decision1 == "2":
         print("te agradece y te pide que si lo puedes ayudar a llegar a la cuidad")
         print("Ayudarlo")
         print("Dejarlo a su suerte")
-        decision3 = input("Que haras?").strip().upper()
+        decision3 = input("Que haras?: ").strip().upper()
         if decision3 == "AYUDARLO":
             print("Lo ayudas a levata")
             print("sigues las ruta que te dice el caballero")
@@ -177,7 +177,7 @@ elif decision1 == "2":
             print("puedes quedarte y hacer una fogata para pasar la noche o seguir caminando")
             print("Quedarte y descansar")
             print("seguir caminando")
-            decision4 = input("Que decides?").strip().upper()
+            decision4 = input("Que decides?: ").strip().upper()
             if decision4 == "QUEDARTE Y DESCANSAR":
                 print("acuestas al caballero sobre un monto de hojas")
                 print("Preparas unas ramas para hacer una hoguera")
@@ -187,12 +187,12 @@ elif decision1 == "2":
                 print("Te despierta un sonido muy fuerte algo a como un rugido te despierta miras aterrado ¡Un gran leo dientes de sable!")
                 print("Te levanstas coges tu espada y te pones en guardia")
                 print("Dudas en defenderte o atacar al leon dientes de sable")
-                decisio5 = input("¿Defenderte o atacar?").strip().upper()
+                decisio5 = input("¿Defenderte o atacar?: ").strip().upper()
                 if decisio5 == "DEFENDERTE":
-                    print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques con tu espada. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
+                    print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
                     print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
                     print("al llegar a la aldea, el caballero te presenta a sus superiores de la orden de la mano de plata, quienes te ofrecen unirte a su causa y entrenarte como un caballero.")
-                    decision6 = input("¿Quieres unirte a la orden de la mano de plata? (SI/NO)").strip().upper()
+                    decision6 = input("¿Quieres unirte a la orden de la mano de plata? (SI/NO):").strip().upper()
                     if decision6 == "SI":
                         print("Decides unirte a la orden de la mano de plata, y comienzas tu entrenamiento como un caballero. A lo largo de tu entrenamiento, aprendes habilidades de combate, magia y estrategia, convirtiéndote en un guerrero formidable.")
                         print("Después de completar tu entrenamiento, te embarcas en misiones para proteger a los inocentes y luchar contra las fuerzas del mal, ganando fama y respeto en el reino.")
@@ -268,7 +268,7 @@ elif decision1 == "2":
                     print("Miedoo a queee.")
                     print("A que pensara que habia sido yo.")
                     print("llegar a la aldea con un caballero muerto, es algo que no se le perdona a nadie.")
-                    print("me ahorcan sin siquiera preguntar.")
+                    print("me ahorcan sin siquiera preguntar dices.")
                     print("la familia te da la razon por tu miedo, y te ahorcan sin siquiera preguntar.")
                 elif decision5 == "PARA VER CUAL SERIA LA SIGUIENTE INTERACCIÓN":
                     print("profe quiero decirle que esto a estado tedioso a eso sumele los bajones de luz el trabajo no haz sido facil pero me gusta <3 ")
@@ -285,9 +285,9 @@ elif decision1 == "2":
                 print("Estas buscando redencion pero no sabes como encontrarla, piensalo bien.")        
         elif decision3 == "SEGUIR TU CAMINO POR EL BOSQUE":
             print("Decides seguir tu camino por el bosque, pero la soleda se vuelva mas pesada.")
-            print("la noche cae y ves como los pocos rayos de luz se desvanecen, se empieza a escuchar ruidos extraños a tu alrededor, y te das cuenta de que no estás solo en el bosque.")
+            print("la noche cae y ves como los pocos rayos de luz se desvanecen, se empieza a escuchar ruidos extraños a tu alrededor, y te das cuenta de que no estás solo en elbosque.")
             print("se escuchas aullidos y de la nada te rodean una manada de lobos.")
-            print("Te atacan y te definedes con tu espada, pero son demasiados te supera en numero.")
+            print("Te atacan y te definedes, pero son demasiados te supera en numero.")
             print("Te estan devorando vivo, ves tu vida pasar frente a tus ojos.")
             print("una luz brillante aparece en el cielo, los lobos se detiene y huyen, una figura misteriosa aparece y te pregunta que haces en su bosque, le cuentas lo que paso y te dice que no deberias haber estado alli, que es peligroso para los humanos.")
             print("estas agonizando y la figura misteriosa te dice que te ayudara a salir del bosque, pero a cambio, debes prometerle que nunca volverás a entrar en su territorio.")
@@ -327,19 +327,48 @@ elif decision1 == "2":
             print("¿Qué decides? (ACOMPAÑARLOS A LA ALDEA/SEGUIR TU CAMINO)")
             decision4 = input("Ingresa tu decisión: ").strip().upper()
             if decision4 == "ACOMPAÑARLOS A LA ALDEA":
-                print("Decides acompañarlos a la aldea de camino te pregunta por la sagre") #que aquiiiiiiiiiiiiiiiiiiiiiii
+                print("Decides acompañarlos a la aldea, de camino te pregunta por la sagre en tu espada.")
+                print("Le cuentas que fuen con un lobo que te ataco, y que lo mataste para defenderte.")
+                print("Te miran con desconfianza, te pregutan serguro que fue un lobo?")
+                print("Si, respondes.")
+                print("Los lobos son de andar en manada, responden.")
+                print("Te empiezan a atacar, aunque logras defenderte de algunos ataques te superan en numero,")
+                print("Tienes que hacer algo rapido")
+                print("Tienes dos opciones, rendirte y entregarte a los cazadores, o seguir luchando contra ellos.")
+                print("RENDIRTE Y ENTREGARTE A LOS CAZADORES")
+                decision5 = input("Ingresa tu decisión: ").strip().upper()
+                if decision5 == "RENDIRTE Y ENTREGARTE A LOS CAZADORES":
+                    print("Decides rendirte y entregarte a los cazadores, y te entregas a ellos sin resistencia. Los cazadores te llevan a la aldea y te entregan a las autoridades para que enfrentes las consecuencias de tus acciones.")
+                    print("En la aldea, eres juzgado por tus acciones y condenado a la horca.")
+                    print("GAME OVER 'ya no tengo ideas para poner un final diferente'")
+                elif decision5 == "SEGUIR LUCHANDO CONTRA ELLOS":
+                    print("Decides seguir luchando contra los cazadores, y te defiendes con todas tus fuerzas. Aunque logras defenderte de algunos ataques, los cazadores te superan en número y te derrotan, dejándote gravemente herido y vulnerable en el bosque.")
+                    print("Mientras estás tendido en el suelo, escuchas aullidos a lo lejos, y te das cuenta de que una manada de lobos se acerca hacia ti.")
+                    print("Sin fuerzas para defenderte, eres devorado por los lobos, terminando tu aventura de manera trágica.")
+                    print("GAME OVER 'ya no tengo ideas para poner un final diferente' ")
+                else:
+                    print("Solo puedes rendirte o seguir luchando, elige bien.")        
             elif decision4 == "SEGUIR TU CAMINO":
                 print("Decides seguir tu camino por el bosque, pero la soledad se vuelve más pesada. La noche cae y ves como los pocos rayos de luz se desvanecen, se empiezan a escuchar ruidos extraños a tu alrededor, y te das cuenta de que no estás solo en el bosque.")    
             print("Bien hecho.'Compasion' ")
         elif decision3 == "ATACAS SIN DECIR NADA":
-            print("Decides atacar a los cazadores sin decir nada, y te lanzas sobre ellos con tu espada. Sin embargo, los cazadores están preparados para defenderse, y te superan en número y habilidad.")
-            print("Después de un intenso combate, los cazadores logran derrotarte, dejándote gravemente herido y vulnerable en el bosque.")
-            print("Mientras estás tendido en el suelo, escuchas aullidos a lo lejos, y te das cuenta de que una manada de lobos se acerca hacia ti.")
-            print("Sin fuerzas para defenderte, eres devorado por los lobos, terminando tu aventura de manera trágica.")
-            print("GAME OVER 'Moriste por el poder del guion' ")
+            print("Atacas previo aviso eliminas a un cazador, pero aun quedan tres.")
+            print("los restantes se ponen en guardia, te rodean rapidamente.")
+            print("Recuerdas que al eliminar al cabellero su habilidad de fuego la aprendiste.")
+            print("Decides usarla para defenderte, lanzas un hechizo de fuego hacia los cazadores, logrando quemar a uno de ellos y asustar a los otros dos.")
+            print("salen huyendo de ti, al parecer tener esa habilidad es algo especial")
+            print("Ahora estas solo en el bosque, pero al menos has sobrevivido a los cazadores.")
+            print("Eres libre por ahora")
+            print("fin del juego 'sobreviviste a los cazadores'")
         else:
             print("Talves atacar sea la mejor opción.")                         
     else:
         print("Tienes buenas opciones")
+elif decision1 == "EXPLORAR EL BOSQUE SIN EL MAPA":
+    print("Caminas sin ruta alguna .")
+    print("De pronto todo se vuelve oscuro, y te das cuenta de que has caído en una trampa oculta en el suelo. Quedas atrapado en un pozo profundo, sin forma de salir por tus propios medios.")
+    print("Mientras estás atrapado en el pozo, escuchas ruidos extraños a tu alrededor, y te das cuenta de que no estás solo. Un grupo de criaturas salvajes se acerca hacia ti, atraídas por tu presencia.")
+    print("Las criaturas te atacan, y aunque intentas defenderte, son demasiadas y te superan en número. Terminas siendo devorado por las criaturas, poniendo fin a tu aventura de manera trágica.")
+    print("GAME OVER 'Moriste por no tener un mapa' ")          
 else:
     print("Vamos empezando el juego y ya estas haciendo cosas raras,")
