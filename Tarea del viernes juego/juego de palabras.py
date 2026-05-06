@@ -188,23 +188,60 @@ elif decision1 == "2":
                 print("Dudas en defenderte o atacar al leon dientes de sable")
                 decisio5 = input("¿Defenderte o atacar?").lower().strip()
                 if decisio5 == "Defenderte":
-                    print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques con tu espada y escudo. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
+                    print("Decides defenderte, el leon dientes de sable ataca con sus garras y colmillos afilados, pero logras bloquear sus ataques con tu espada. Después de un intenso combate, logras vencer al leon dientes de sable, salvando tu vida y la del caballero.")
                     print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
-                elif decisio5 == "Atacar":
-                    print("Decides atacar, el leon dientes de sable ataca con sus garras y colmillos afilados, no fue una buena idea atacar, el leon te destroza con sus garras y colmillos.")
-                    print("GAME OVER.")
-                    print("El caballero te agradece por tu valentía y te ofrece su amistad. Juntos continúan su viaje hacia la aldea.")
-                    print("al llegar a la aldea, el caballero te presenta a sus superiores en la orden de la mano de plata, quienes te ofrecen unirte a su causa y entrenarte como un caballero.")
-                    decision2 = input("¿Quieres unirte a la orden de la mano de plata? (SI/NO)").lower().strip()
-                    if decision2 == "si":
+                    print("al llegar a la aldea, el caballero te presenta a sus superiores de la orden de la mano de plata, quienes te ofrecen unirte a su causa y entrenarte como un caballero.")
+                    decision6 = input("¿Quieres unirte a la orden de la mano de plata? (SI/NO)").lower().strip()
+                    if decision6 == "si":
                         print("Decides unirte a la orden de la mano de plata, y comienzas tu entrenamiento como un caballero. A lo largo de tu entrenamiento, aprendes habilidades de combate, magia y estrategia, convirtiéndote en un guerrero formidable.")
                         print("Después de completar tu entrenamiento, te embarcas en misiones para proteger a los inocentes y luchar contra las fuerzas del mal, ganando fama y respeto en el reino.")
                         print("Gracias por jugar.'Profe ya no aguanbto massss'")
-                    elif decision2 == "no":
+                    elif decision6 == "no":
                         print("Decides no unirte a la orden de la mano de plata, y decides seguir tu propio camino como aventurero. Continúas explorando el mundo, enfrentando desafíos y viviendo aventuras por tu cuenta, sin la guía ni el apoyo de la orden.")
                         print("Aunque enfrentas dificultades y peligros, también encuentras momentos de libertad y emoción en tu viaje como aventurero solitario.")
                         print("Gracias por jugar.'Es mejor la livertad' ")
                     else:
                         print("Es una buena propuesta piensalo bien.")
+                elif decisio5 == "Atacar":
+                    print("Decides atacar, el leon dientes de sable ataca con sus garras y colmillos afilados, no fue una buena idea atacar, el leon te destroza con sus garras y colmillos.")
+                    print("GAME OVER.")        
                 else:
                     print("Solo puedes defenderte o atacar.")
+            elif decision3 == "Dejarlo a su suerte":
+                print("Decides dejarlo a su suerte, y continúas tu camino por el bosque. Sin embargo, te sientes culpable por no haber ayudado al aventurero, y te preguntas qué le habrá pasado.")
+                print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste no ayudar.")
+                print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
+                print("Los aventureiros te dicen que tiene la chapa de reconocimiento del caballero que encontró muerto en el bosque que al llegar a la aldea la llebara con la orden de la mano de plata.")
+                print("Acopañas a llevar la chapa de reconocimiento a la orden de la mano de plata, y al llegar a la aldea, entregan la chapa a los superiores de la orden.")
+                print("Te enteras de que tenia familia y hiejos que lo esperaban en casa, y te sientes aún más culpable por no haber ayudado al aventurero, sabiendo que su familia ahora está sufriendo por su pérdida.")
+                print("la culpa te consume, te planteas de contar lo que paso a la familia del aventurero, pero temes que eso solo les cause mas dolor")
+                print("Duermes y sueñas con el aventurero atormentadote decides que no aguastas mas que haras?")
+                print(" 1. Contar la verdad a la familia del aventurero")
+                print(" 2. Acabar con el tomerto de la culpa y acabar con tu vida")
+                decision7 = input("Ingresa tu decisión: ").lower().strip()
+                if decision7 == "1":
+                    print("Decides contar la verdad a la familia del aventurero, y te acercas a ellos para compartir lo que sucedió en el bosque. Les cuentas que encontraste al aventurero mal herido, pero decidiste no ayudarlo y continuar tu camino.")
+                    print("La familia del aventurero se siente devastada por la noticia, te maldicen y te espulsa de la aldea.")
+                    print("Te deja a tu suerte de nuevo en el bosque ahora sin espada ni mapa.")
+                    print("Sin nada para defenderte ni para guiarte, es solo cuestión de tiempo antes de que te encuentres con un peligro mortal en el bosque, y termines siendo devorado por una bestia salvaje o muriendo de hambre y sed.")
+                    print("Igual al caballero que decidio no ayudarlo.")
+                    print("GAME OVER 'Moriste por el poder del guion' ")
+                elif decision7 == "2":
+                    print("Decides acabar con el tormento de la culpa y acabar con tu vida.")
+                    print("GAME OVER 'Moriste de una forma triste' ")
+                else:
+                    print("Se que son decisiones difíciles pero tienes que tomar una.")
+    elif decision2 == "Ignorar al aventurero":
+        print("Decides ignorar al aventurero, y continúas tu camino por el bosque. Sin embargo, te sientes culpable por no haber ayudado al aventurero, y te preguntas qué le habrá pasado.")
+        print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste no ayudar.")
+        print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
+        print("GAME OVER 'Moriste por el poder del guion' ")    
+    elif decision2 == "Rematar al aventurero":
+        print("Decides rematar al aventurero, y con un golpe certero, acabas con su sufrimiento de una vez por todas. Sin embargo, te sientes culpable por haber tomado la vida del aventurero, y te preguntas si podrías haber hecho algo para salvarlo.")
+        print("Después de un tiempo, encuentras un grupo de cazadores que te encuentran y te cuentan que encontraron el cuerpo sin vida de un aventurero en el bosque, con heridas de batalla. Te das cuenta de que era el aventurero al que decidiste rematar.")
+        print("Te sientes aún más culpable por tu decisión, y te preguntas si podrías haber hecho algo para salvarlo.")
+        print("GAME OVER 'Moriste por el poder del guion' ")             
+    else:
+        print("Tienes buenas opciones")
+else:
+    print("Vamos empezando el juego y ya estas haciendo cosas raras,")
