@@ -91,7 +91,7 @@ if decision1 == "TOMAR LA ESPADA Y SEGUIR EL MAPA":
                 decision7 = input("Ingresa tu decisión: ").strip().upper()
                 if decision7 == "INTENTAR ABRIR LA PUERTA":
                     print("Intentas abrir la puerta, pero está cerrada con llave. Sin embargo, encuentras una pequeña ranura en la puerta que parece ser para una llave. Buscas alrededor y encuentras una llave escondida debajo de una piedra cercana. Usas la llave para abrir la puerta y descubres un tesoro escondido dentro.")
-                    print("El tesoro contiene una posion que brilla como el oro, dudas el beberla, pero decides probarla y poco a poco te vas convirtiendo en oro y receurdas esa frases que dicen los viejos no todo lo que brilla es oro, y te das cuenta de que has caído en una trampa y te has convertido en una estatua de oro.")
+                    print("El tesoro contiene una posion que brilla como el oro, dudas el beberla, pero decides probarla, y poco a poco te vas convirtiendo en oro y recuerdas esa frases que dicen los viejos no todo lo que brilla es oro, y te das cuenta de que has caído en una trampa y te has convertido en una estatua de oro.")
                     print("Gran forma de morir.")
                 elif decision7 == "CONTINUAR CAMINANDO POR EL BOSQUE":
                     print("Decides continuar caminando por el bosque, ves a lo lejos un rio y al lado contrario una montaña")
