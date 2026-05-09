@@ -2,8 +2,14 @@
 for x in range(1, 16):
     print(x)
 
+print("_" * 20 + "\n")
+
 # Conteo regresivo
-num = int(input("Ingrese un número para contar hacia atrás: "))
-while num >= 0:
-    print(num)
-    num -= 1
+n = 10
+while n >= 0:
+    print(n)
+    n -= 1
+
+print("_" * 20 + "\n")
+
+# Conteo regresivo
