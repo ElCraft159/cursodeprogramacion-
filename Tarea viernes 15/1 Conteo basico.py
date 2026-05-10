@@ -100,3 +100,36 @@ print(invertida)
 print("_" * 20 + "\n")
 
 print("Secuencia de fibonaccio")
+fibo = int(input("ingresa un numero: "))
+a = 0
+b = 1
+for x in range(fibo):
+    print(a)
+    c = a + b
+    a = b
+    b = c
+
+print("_" * 20 + "\n")
+
+print("Bucle centinela" "\n")
+print("Adivina el numero")
+num = 4
+while True:
+    intento = int(input("Ingresa un del 1 al 10: "))
+    if intento == num:
+        print("Adivinaste el numero")
+        break
+    else:
+        print("No adivinaste el numero intenta de nuevo")
+
+print("_" * 20 + "\n")
+
+print("Validacion constante")
+num = -1
+while num <= 0:
+    num = int(input("Ingresa un numero positivo: "))
+    if num <= 0:
+        print("Papi te dije un numero positivo dale de nuevo")
+print(f"Perfecto, el numero es: {num} es valido")        
+
+print("_" * 20 + "\n")
