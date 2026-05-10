@@ -1,12 +1,12 @@
 print("_" * 20 + "\n")
 
-# Conteo básico secuencial
+print ("Conteo básico secuencial" "\n")
 for x in range(1, 16):
     print(x)
 
 print("_" * 20 + "\n")
 
-# Conteo regresivo
+print("Conteo regresivo" "\n")
 n = 10
 while n >= 0:
     print(n)
@@ -14,7 +14,7 @@ while n >= 0:
 
 print("_" * 20 + "\n")
 
-# Sumatoria de rango
+print ("Sumatoria de rango" "\n")
 total = 0
 for suma in range(1, 51):
     total += suma
@@ -22,21 +22,21 @@ print(f"La sumatoria del rango 1 al 50 es: {total}")
 
 print("_" * 20 + "\n")
 
-# Generador de tablas de multiplicar
+("Generador de tablas de multiplicar" "\n")
 num = int(input("Ingrese un número del 1 al 10 para generar su tabla de multiplicar: "))
 for M in range(1, 11):
     print(f"{num} x {M} = {num * M}")
 
 print("_" * 20 + "\n")
 
-# Interacion de Cadenas
+print("Interacion de Cadenas" "\n")
 p = "Programacion"
 for x in p:
     print(f"{x}")
 
 print("_" * 20 + "\n")
 
-# Identificacion de Numeros Pares
+print("Identificacion de Numeros Pares" "\n")
 
 num = 2
 print("Numero de 2 en 2 hasta 3")
@@ -46,7 +46,7 @@ while num <= 30:
 
 print("_" * 20 + "\n")
 
-#Interrucion de bucle
+print("Interrucion de bucle" "\n")
 
 for x in range(1, 101):
     if x % 13 == 0:
@@ -55,7 +55,7 @@ for x in range(1, 101):
 
 print("_" * 20 + "\n")
 
-#Calculo de factorial
+print("Calculo de factorial" "\n")
 
 num = int(input("Ingresa un numero para buscar su factorial: "))
 factorial = 1
@@ -69,3 +69,34 @@ else:
     print(f"El factorial de {num} es: {factorial}")
 
 print("_" * 20 + "\n")
+
+print("Filtro de vocales" "\n")
+
+frase = input("Ingresa tu frase: ")
+vocales = "aeiouAEIOU"
+contavoca = 0
+for vocal in frase:
+    if vocal in vocales:
+        contavoca += 1
+print(f"Tienes {contavoca} Vocales")
+
+print("_" * 20 + "\n")
+
+print("Salto de interacion" "\n")
+for x in range(1, 21):
+    if x % 3 == 0:
+        continue
+    print(x)
+
+print("_" * 20 + "\n")
+
+print("inversion de cadenas")
+palabra = input("ingresa una palabra: ")
+invertida = ""
+for x in palabra:
+    invertida = x + invertida
+print(invertida)
+
+print("_" * 20 + "\n")
+
+print("Secuencia de fibonaccio")
