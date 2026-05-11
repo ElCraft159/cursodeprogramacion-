@@ -130,6 +130,80 @@ while num <= 0:
     num = int(input("Ingresa un numero positivo: "))
     if num <= 0:
         print("Papi te dije un numero positivo dale de nuevo")
-print(f"Perfecto, el numero es: {num} es valido")        
+print(f"Perfecto, el numero: {num} es valido")        
 
 print("_" * 20 + "\n")
+
+print("Indetificacion de primos")
+
+num = int(input("Ingresa un numero: "))
+es_primo = True
+for x in range(2, num):
+    if num % x == 0:
+        print(f"El numero {num} no es primo porque se puede dividir por {x}")
+        es_primo = False
+        break
+else:
+    print(f"El numero {num} es primo")
+
+print("_" * 20 + "\n")
+
+print("Rango de primos")
+for x in range(2, 51):
+    es_primo = True
+    for y in range(2, x):
+        if x % y == 0:
+            es_primo = False
+            break
+    if es_primo:
+        print(x)
+
+print("_" * 20 + "\n")
+
+print("Patron geometrico")
+n = "5"
+for x in range(1, int(n) + 1):
+    for y in range(x):
+        print("*", end="")
+    print()
+
+print("_" * 20 + "\n")
+
+print("Algoritmo de euclides")
+a = 45
+b = 30
+while b != 0:
+    a, b = b, a % b
+print(f"El mcd de {a} y {b} es {a}")
+
+print("_" * 20 + "\n")
+
+print("Menu interactivo")
+
+while True:
+    print("1. Sumar")
+    print("2. Restar")
+    print("3. Salir")
+    opcion = input("Ingresa una opcion: ")
+    if opcion == "1":
+        print("Sumar")
+        print("7 + 3 = ", 7 + 3)
+    elif opcion == "2":
+        print("Restar")
+        print("10 - 3 = ", 10 - 3)
+    elif opcion == "3":
+        print("Salir")
+        break
+    else:
+        print("Opcion no valida intentalo de nuevo")
+
+print("_" * 20 + "\n")
+
+print("Analisi de matriz")
+
+matriz = [[11, 41, 7], [12, 45, 74], [34, 15, 12]]
+suma_total = 0
+for fila in matriz:
+    for num in fila:
+        suma_total += num
+print("La suma total de la matriz es:", suma_total)
