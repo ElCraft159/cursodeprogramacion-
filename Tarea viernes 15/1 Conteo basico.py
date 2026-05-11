@@ -39,7 +39,7 @@ print("_" * 20 + "\n")
 # Identificacion de Numeros Pares
 
 num = 2
-print("Numero de 2 en 2 hasta 3")
+print("Numero de 2 en 2 hasta 30")
 while num <= 30:
     print(num)
     num += 2
