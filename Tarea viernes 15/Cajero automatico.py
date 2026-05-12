@@ -2,6 +2,7 @@ print("_" * 50 + "")
 print("\n" "Bienvenido al cajero automatico")
 print("_" * 50 + "")
 saldo = 1000
+pin = ""
 print("Create una cuenta")
 usuario = input("Ingresar tu usuario: ").upper()
 intentos = 3
@@ -21,21 +22,21 @@ print("_" * 50 + "")
 
 print("Iniciar sesion")
 print("Bienvenido", usuario)
-intentos = 3
-while intentos > 0:
-    pin = int(input("Ingrese tu pin: "))
-    if pin == pin:
+intento = 3
+while intento > 0:
+    contra = int(input("Ingrese tu pin: "))
+    if contra == pin:
         print("Sesion iniciada")
         break
     else:
         print("Contrasena incorrecta")
-        intentos -= 1
-    if intentos == 0:
+        intento -= 1
+    if intento == 0:
         print("Usuario bloqueado")
         exit()
 print("_" * 50 + "")
 print("Usuario", usuario)
-print("Tu saldo es: ", saldo)
+print("Tu saldo es: ", saldo ,"$")
 print("_" * 50 + "")
 print("\t" "---MENU---")
 
@@ -63,16 +64,16 @@ while True:
             resto = resto % 20
             b10 = resto // 10
             print(f"entregado: {b10} Billetes de 10, {b20} Billetes de 20, {b50} Billetes de 50, {b100} Billetes de 100: {retirar}$")
-            print(f"Saldo restante: ", saldo)
+            print(f"Saldo restante: ", saldo,"$")
         print("_" * 50 + "")
     elif opcion == 2:
         depositar = int(input("Ingrese la cantidad a depositar: "))
         saldo += depositar
         print("Deposito exitoso")
-        print(f"Saldo actual: ", saldo)
+        print(f"Saldo actual: ", saldo,"$")
         print("_" * 50 + "")
     elif opcion == 3:
-        print("Tu saldo es: ", saldo)
+        print("Tu saldo es: ", saldo,"$")
         print("_" * 50 + "")    
     elif opcion == 4:
         print("Gracias por usar el cajero automatico")
