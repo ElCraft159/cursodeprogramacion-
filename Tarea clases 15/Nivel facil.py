@@ -50,3 +50,10 @@ print(aleatorio)
 #Simulacion Matematico
 import random 
 import math
+vueltas = 3
+while vueltas > 0:
+    angulo = random.randint(0, 90)
+    velocidad = random.randint(1, 10)
+    distancia = velocidad * math.sin(math.radians(angulo))
+    print(f"La distancia recorrida es: {distancia}")
+    vueltas -= 1
